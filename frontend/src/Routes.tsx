@@ -4,6 +4,7 @@ import { BrowserRouter, Route } from "react-router-dom";
 
 const Routes = () => {
     return (
+        
         <BrowserRouter>
             <switch>
                 <Route path="/" >
