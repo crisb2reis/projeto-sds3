@@ -6,10 +6,10 @@ const Routes = () => {
     return (
         <BrowserRouter>
             <switch>
-                <Route path="/" exact>
+                <Route path="/" >
                     <Home />
                 </Route>
-                <Route path="/dashboard" exact>
+                <Route path="/dashboard" >
                     <Dashboard />
                 </Route>  
             </switch>
